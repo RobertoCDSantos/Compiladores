@@ -1,0 +1,18 @@
+number x;
+number y;
+number z;
+
+number max( number a, number b ) {
+   if a > b then return a;
+   else return b;
+}
+
+number max3( number a, number b, number c) {
+    return max(a, max(b,c));
+}
+
+// main program starts below
+x = 3;
+y = 5;
+z = 4;
+print max3(x,y,z);

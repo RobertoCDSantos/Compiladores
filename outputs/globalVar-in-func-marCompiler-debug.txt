@@ -1,0 +1,35 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <STRING:"xpto ">
+1: <STRING:"Hello">
+2: <STRING:"Hello ">
+3: <STRING:"Maria">
+Generated assembly code:
+0: GLOBAL 2
+1: JUMP 18
+2: CONST 0
+3: LOADG 1
+4: CONCAT
+5: PRINT_S
+6: NIL
+7: RETURN 0
+8: LOCAL 1
+9: CONST 1
+10: STOREL 2
+11: CONST 2
+12: LOADG 0
+13: CONCAT
+14: PRINT_S
+15: POP 1
+16: NIL
+17: RETURN 0
+18: CONST 3
+19: STOREG 0
+20: CALL 8
+21: POP 1
+22: CALL 2
+23: POP 1
+24: HALT
+Saving the constant pool and the bytecodes to ../inputs/globalVar-in-func.marbc

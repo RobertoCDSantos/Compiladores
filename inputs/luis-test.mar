@@ -1,0 +1,21 @@
+number a;
+number b;
+number c;
+
+number printConta(number a) {
+    number i;
+    i = 0;
+    while i < a do {
+        i = i + 1;
+        print i;
+        while a < c do {
+            a = 1;
+            print a;
+        }
+    }
+    return i;
+}
+
+c = 2;
+
+print printConta(4);

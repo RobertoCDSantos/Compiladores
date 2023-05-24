@@ -1,0 +1,23 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <NUMBER:3.0>
+1: <NUMBER:2.0>
+2: <STRING:"Then">
+3: <STRING:"Else">
+4: <STRING:"Fim">
+Generated assembly code:
+0: CONST 0
+1: CONST 1
+2: GT
+3: JUMPF 7
+4: CONST 2
+5: PRINT_S
+6: JUMP 9
+7: CONST 3
+8: PRINT_S
+9: CONST 4
+10: PRINT_S
+11: HALT
+Saving the constant pool and the bytecodes to ../inputs/input4.marbc

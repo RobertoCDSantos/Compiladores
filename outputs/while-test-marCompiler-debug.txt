@@ -1,0 +1,35 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <NUMBER:0.0>
+1: <NUMBER:1.0>
+2: <NUMBER:2.0>
+3: <NUMBER:4.0>
+Generated assembly code:
+0: GLOBAL 3
+1: JUMP 19
+2: LOCAL 1
+3: CONST 0
+4: STOREL 2
+5: LOADG 2
+6: LOADL -1
+7: LT
+8: JUMPF 16
+9: LOADL 2
+10: CONST 1
+11: ADD
+12: STOREL 2
+13: LOADL 2
+14: PRINT_N
+15: JUMP 5
+16: LOADL 2
+17: RETURN 1
+18: POP 1
+19: CONST 2
+20: STOREG 2
+21: CONST 3
+22: CALL 2
+23: PRINT_N
+24: HALT
+Saving the constant pool and the bytecodes to ../inputs/while-test.marbc

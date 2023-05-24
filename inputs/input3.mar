@@ -1,0 +1,8 @@
+/*
+Programa que ilustra um if-then
+*/
+if 3 > 2 then {
+print "3 é maior que 2";
+print "Bingo!";
+}
+print "Fim";

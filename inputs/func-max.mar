@@ -1,0 +1,13 @@
+number x;
+number y;
+number z;
+
+number max( number a, number b ) {
+   if a > b then return a;
+   else return b;
+}
+
+x = 3;
+y = 5;
+z = max(x,y);
+print z;

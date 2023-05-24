@@ -1,0 +1,6 @@
+/*
+Programa que ilustra um if-then-else
+*/
+if 3 > 2 then print "Then";
+else print "Else";
+print "Fim";

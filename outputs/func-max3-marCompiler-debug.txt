@@ -1,0 +1,38 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <NUMBER:3.0>
+1: <NUMBER:5.0>
+2: <NUMBER:4.0>
+Generated assembly code:
+0: GLOBAL 3
+1: JUMP 17
+2: LOADL -2
+3: LOADL -1
+4: GT
+5: JUMPF 9
+6: LOADL -2
+7: RETURN 2
+8: JUMP 11
+9: LOADL -1
+10: RETURN 2
+11: LOADL -3
+12: LOADL -2
+13: LOADL -1
+14: CALL 2
+15: CALL 2
+16: RETURN 3
+17: CONST 0
+18: STOREG 0
+19: CONST 1
+20: STOREG 1
+21: CONST 2
+22: STOREG 2
+23: LOADG 0
+24: LOADG 1
+25: LOADG 2
+26: CALL 11
+27: PRINT_N
+28: HALT
+Saving the constant pool and the bytecodes to ../inputs/func-max3.marbc

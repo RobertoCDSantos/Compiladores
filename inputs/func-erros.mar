@@ -1,0 +1,30 @@
+number n;
+bool b;
+
+number xpto( number a, string s ) {
+   if a > 5 then return a;
+   if a > 3 then return s;
+   return a+1;
+}
+
+xpto2() {
+   print "ola";
+   return 53;
+   return;
+}
+
+xpto3() {
+   print "ola";
+}
+
+number xpto4( number a ) {
+   if a > 0 then return a;
+}
+
+// main program starts below
+xpto = 4;
+n = fact(5);
+n = xpto(10);
+n = xpto(10,"ola");
+b = xpto(10,"ola");
+n = xpto(10,true);

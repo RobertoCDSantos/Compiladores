@@ -1,0 +1,30 @@
+number g1;
+number g2;
+g1 = 10;
+g2 = 20;
+{
+    number a;
+    number b;
+    a = 1;
+    {
+        number c;
+        c = 2;
+        {
+            number d;
+            number e;
+            d = 3;
+            {
+                number f;
+                f = 4;
+            }
+            e = 5;
+            d = g1 + a;
+            print d;
+       }
+   }
+   b = 6;
+   {
+        number g;
+        g = 7;
+   }
+}

@@ -1,0 +1,17 @@
+string g;
+string g2;
+
+xpto() {
+   print "xpto " + g2;
+}
+
+hello() {
+   string s;
+   s = "Hello";
+   print "Hello " + g;
+}
+
+g = "Maria";
+hello();
+xpto();      // xpto() references g2 and g2 is not initialized,
+             // must give runtime error

@@ -1,0 +1,28 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <NUMBER:0.0>
+1: <NUMBER:1.0>
+2: <NUMBER:1.0>
+3: <NUMBER:3.0>
+Generated assembly code:
+0: JUMP 14
+1: LOADL -1
+2: CONST 0
+3: EQ_N
+4: JUMPF 7
+5: CONST 1
+6: RETURN 1
+7: LOADL -1
+8: LOADL -1
+9: CONST 2
+10: SUB
+11: CALL 1
+12: MULT
+13: RETURN 1
+14: CONST 3
+15: CALL 1
+16: PRINT_N
+17: HALT
+Saving the constant pool and the bytecodes to ../inputs/func-factorial.marbc

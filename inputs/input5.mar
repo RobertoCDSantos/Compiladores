@@ -1,0 +1,5 @@
+number i;
+{
+    i = 4;
+    print i;
+}

@@ -1,0 +1,17 @@
+number a;
+number b;
+number c;
+
+number printConta(number a) {
+    number i;
+    i = 0;
+    while c < a do {
+        i = i + 1;
+        print i;
+    }
+    return i;
+}
+
+c = 2;
+
+print printConta(4);

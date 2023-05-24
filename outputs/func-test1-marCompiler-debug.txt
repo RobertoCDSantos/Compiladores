@@ -1,0 +1,46 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <STRING:" | ">
+1: <STRING:" | ">
+2: <STRING:"Olá ">
+3: <STRING:" malandro ">
+4: <STRING:" adeus">
+Generated assembly code:
+0: GLOBAL 1
+1: JUMP 28
+2: LOCAL 3
+3: LOADL -3
+4: STOREL 2
+5: LOADL -2
+6: STOREL 3
+7: LOADL -1
+8: STOREL 4
+9: LOADL 2
+10: LOADL 3
+11: CONCAT
+12: LOADL 4
+13: CONCAT
+14: RETURN 3
+15: POP 3
+16: LOADL -1
+17: CONST 0
+18: CONCAT
+19: LOADL -1
+20: CONCAT
+21: CONST 1
+22: CONCAT
+23: LOADL -1
+24: CONCAT
+25: STOREL -1
+26: LOADL -1
+27: RETURN 1
+28: CONST 2
+29: CONST 3
+30: CONST 4
+31: CALL 2
+32: CALL 16
+33: PRINT_S
+34: HALT
+Saving the constant pool and the bytecodes to ../inputs/func-test1.marbc

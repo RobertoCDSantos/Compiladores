@@ -1,0 +1,51 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <NUMBER:10.0>
+1: <NUMBER:20.0>
+2: <NUMBER:1.0>
+3: <NUMBER:2.0>
+4: <NUMBER:3.0>
+5: <NUMBER:4.0>
+6: <NUMBER:5.0>
+7: <NUMBER:6.0>
+8: <NUMBER:7.0>
+Generated assembly code:
+0: GLOBAL 2
+1: CONST 0
+2: STOREG 0
+3: CONST 1
+4: STOREG 1
+5: LOCAL 2
+6: CONST 2
+7: STOREL 0
+8: LOCAL 1
+9: CONST 3
+10: STOREL 2
+11: LOCAL 2
+12: CONST 4
+13: STOREL 3
+14: LOCAL 1
+15: CONST 5
+16: STOREL 5
+17: POP 1
+18: CONST 6
+19: STOREL 4
+20: LOADG 0
+21: LOADL 0
+22: ADD
+23: STOREL 3
+24: LOADL 3
+25: PRINT_N
+26: POP 2
+27: POP 1
+28: CONST 7
+29: STOREL 1
+30: LOCAL 1
+31: CONST 8
+32: STOREL 2
+33: POP 1
+34: POP 2
+35: HALT
+Saving the constant pool and the bytecodes to ../inputs/local-vars.marbc

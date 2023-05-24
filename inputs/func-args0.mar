@@ -1,0 +1,11 @@
+hello() {
+   print "Hello";
+}
+10;
+10 < 10;
+print 1;
+hello();
+print 2;
+hello();
+print 3;
+

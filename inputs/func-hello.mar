@@ -1,0 +1,7 @@
+hello( string s ) {
+   print "Hello " + s;
+}
+
+// main program starts below
+hello("Maria");
+

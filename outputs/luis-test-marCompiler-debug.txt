@@ -1,0 +1,46 @@
+...parsing done
+...identification and type checking done
+...code generation
+Constant pool:
+0: <NUMBER:0.0>
+1: <NUMBER:1.0>
+2: <NUMBER:1.0>
+3: <NUMBER:2.0>
+4: <NUMBER:4.0>
+Generated assembly code:
+0: GLOBAL 3
+1: JUMP 29
+2: LOCAL 1
+3: CONST 0
+4: STOREL 2
+5: LOADL 2
+6: LOADL -1
+7: LT
+8: JUMPF 26
+9: LOADL 2
+10: CONST 1
+11: ADD
+12: STOREL 2
+13: LOADL 2
+14: PRINT_N
+15: LOADL -1
+16: LOADG 2
+17: LT
+18: JUMPF 25
+19: CONST 2
+20: STOREL -1
+21: STOREL -1
+22: LOADL -1
+23: PRINT_N
+24: JUMP 15
+25: JUMP 5
+26: LOADL 2
+27: RETURN 1
+28: POP 1
+29: CONST 3
+30: STOREG 2
+31: CONST 4
+32: CALL 2
+33: PRINT_N
+34: HALT
+Saving the constant pool and the bytecodes to ../inputs/luis-test.marbc

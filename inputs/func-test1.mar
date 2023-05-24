@@ -1,0 +1,18 @@
+string to;
+string mau( string a , number b, string c) {
+   string a1;
+   string a2;
+   string a3;
+   a1 = a;
+   a4 = b;
+   a3 = c;
+   return a1 + a2 + a3;
+}
+
+string toFinish (string a){
+    a = a + " | " + a + " | " + a;
+    return b;
+}
+
+// main program starts below
+print toFinish(mau("Olá ", 2, " adeus"));
